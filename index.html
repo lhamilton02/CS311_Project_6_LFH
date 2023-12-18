@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css directory/styles.css">
+    <title>Your Balance Sheet App</title>
+</head>
+<body>
+    <header>
+        <h1>Bellarmine Financials - Balance Sheet Calculator</h1>
+    </header>
+
+  
+    <main class="grid-container">
+        <div class="assets">
+            <section class="current-assets">
+                <h2>Current Assets</h2>
+                <button id="addCurrentAssetsBtn">Add Current Assets</button>
+                <div id="currentAssetsContainer"></div>
+                <p>Total Current Assets: <span id="totalCurrentAssets">0</span></p>
+            </section>
+
+            <section class="investment-property-equipment">
+                <h2>Investment Property Equipment</h2>
+                <button id="addInvestmentPropertyBtn">Add Investment Property</button>
+                <div id="investmentPropertyContainer"></div>
+                <p>Total Investment Property: <span id="totalInvestmentProperty">0</span></p>
+            </section>
+
+            <section class="intangible-assets">
+                <h2>Intangible Assets</h2>
+                <button id="addIntangibleAssetsBtn">Add Intangible Assets</button>
+                <div id="intangibleAssetsContainer"></div>
+                <p>Total Intangible Assets: <span id="totalIntangibleAssets">0</span></p>
+            </section>
+        </div>
+
+        <div class="liabilities">
+            <section class="current-liabilities">
+                <h2>Current Liabilities</h2>
+                <button id="addCurrentLiabilitiesBtn">Add Current Liabilities</button>
+                <div id="currentLiabilitiesContainer"></div>
+                <p>Total Current Liabilities: <span id="totalCurrentLiabilities">0</span></p>
+            </section>
+
+            <section class="long-term-liabilities">
+                <h2>Long-Term Liabilities</h2>
+                <button id="addLongTermLiabilitiesBtn">Add Long-Term Liabilities</button>
+                <div id="longTermLiabilitiesContainer"></div>
+                <p>Total Long-Term Liabilities: <span id="totalLongTermLiabilities">0</span></p>
+            </section>
+
+            <section class="total-position">
+                <h2>Total Position</h2>
+                <p>Total Assets: <span id="totalAssets">0</span></p>
+                <p>Total Liabilities: <span id="totalLiabilities">0</span></p>
+                <button id="calculatePositionBtn">Calculate Position</button>
+                <p>Position: <span id="position">0</span></p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="red-bar"> 
+        <p>Bellarmine University 2022</p>
+    </footer>
+
+
+    <script src="js directory/BalanceSheet.js"></script>
+</body>
+</html>
